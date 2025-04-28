@@ -8,7 +8,11 @@ import estate from "../../Assets/Projects/estate.png"
 import timeline from "../../Assets/Projects/timeline.png"
 import underdog from "../../Assets/Projects/underdog.png"
 import face from "../../Assets/Projects/face.png"
-
+import fondre from "../../Assets/Projects/fondre.png"
+import community from "../../Assets/Projects/community.png"
+import meditea from "../../Assets/Projects/meditea.png"
+import winners from "../../Assets/Projects/winners.png"
+import spotlight from "../../Assets/Projects/spotlight.png"
 
 function Projects() {
   return (
@@ -22,6 +26,56 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={spotlight}
+              isBlog={false}
+              title="Spotlight"
+              description="I led the team and managed the development of the Spotlight web application, a luxury and creative hub in Lekki. Built with React and Django, the site highlights their lounge, spa, art exhibition space, event center, and DJ studio, delivering a seamless and engaging experience that blends elegance with innovation. "
+              demoLink="https://spotlight-pink.vercel.app/"
+            />
+          </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={winners}
+              isBlog={false}
+              title="Winners Chapel International Dallas"
+              description="I developed the Winners Chapel International Dallas website using WordPress, creating a dynamic platform for sharing church events, sermons, and resources while strengthening community engagement online. "
+              demoLink="https://www.winnerschapeldallas.org/"
+            />
+          </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={meditea}
+              isBlog={false}
+              title="Meditea"
+              description="I built an e-commerce website for Mediteas using WordPress, allowing the brand to showcase and sell their range of herbal teas focused on wellness, healing, and healthy living through a clean and engaging online store. "
+              demoLink="https://ourmeditea.com/"
+            />
+          </Col>
+        
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={community}
+              isBlog={false}
+              title="Community Pot"
+              description="I developed the Community Pot website with WordPress to support their mission of improving child nutrition in Nigeria. The site highlights their initiatives, shares resources, and drives community engagement through a clean, responsive design. "
+              demoLink="https://communitypots.com/"
+            />
+          </Col>
+        
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fondre}
+              isBlog={false}
+              title="Fondre Cakes"
+              description="I built an e-commerce website for Fondre Cakes using WordPress, enabling the business to showcase and sell custom cakes online through a user-friendly and responsive platform. "
+              demoLink="https://fondrecakes.com/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={flex}
